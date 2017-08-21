@@ -1,6 +1,6 @@
 {
   "name": "simple-icons-mui",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Simple Icons as React Material UI components",
   "private": false,
   "main": "index.js",
