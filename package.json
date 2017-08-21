@@ -1,11 +1,22 @@
 {
-  "name": "simple-icons-react",
+  "name": "simple-icons-mui",
   "version": "0.0.0",
-  "description": "Simple Icons as React components",
+  "description": "Simple Icons as React Material UI components",
+  "private": false,
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node index.js"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Dustin McCormick",
+  "license": "CC0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Torchlite/simple-icons-mui.git"
+  },
+  "dependencies": {
+    "cheerio": "1.0.0-rc.2",
+    "humps": "2.0.1",
+    "lodash": "4.17.4",
+    "simple-icons": "github:simple-icons/simple-icons"
+  }
 }
