@@ -1,0 +1,14 @@
+{
+  "ignore": [
+    "node_modules",
+    "index.js"
+  ],
+  "presets": ["stage-1", "react"],
+  "env": {
+    "production": {
+      "plugins": [
+        "transform-react-constant-elements"
+      ]
+    }
+  }
+}

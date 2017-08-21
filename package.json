@@ -5,7 +5,7 @@
   "private": false,
   "main": "index.js",
   "scripts": {
-    "build": "node index.js"
+    "build": "node index.js && ./node_modules/babel-cli/bin/babel.js icons --out-dir icons"
   },
   "author": "Dustin McCormick",
   "license": "CC0",
@@ -23,5 +23,12 @@
     "material-ui": "^1.0.0-beta",
     "react": "^15.3.0 || ^16.0.0-beta.1",
     "react-dom": "^15.3.0 || ^16.0.0-beta.1"
+  },
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-plugin-transform-react-constant-elements": "6.23.0",
+    "babel-preset-react": "6.24.1",
+    "babel-preset-stage-1": "6.24.1",
+    "sanitize-filename": "1.6.1"
   }
 }
