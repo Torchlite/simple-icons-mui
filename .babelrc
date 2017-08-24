@@ -4,11 +4,8 @@
     "index.js"
   ],
   "presets": ["stage-1", "react"],
-  "env": {
-    "production": {
-      "plugins": [
-        "transform-react-constant-elements"
-      ]
-    }
-  }
+  "plugins": [
+    "transform-react-constant-elements",
+    "transform-es2015-modules-commonjs"
+  ]
 }
