@@ -24,4 +24,4 @@ var _SvgIcon2 = _interopRequireDefault(_SvgIcon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _ref = _react2.default.createElement('path', { d: 'M1.646 14.93S-.82 9.035 3.6 4.64C7.61.646 13.666.028 14.717 0c0 0 1.626 5.337-2.434 11.387-4.055 6.05-9.68 4.41-9.68 4.41S8.16 8.713 7.49 8.757c-.467.027-3.383 3.237-5.844 6.174', 'fill-rule': 'nonzero' });
+var _ref = _react2.default.createElement('path', { d: 'M1.646 14.93S-.82 9.035 3.6 4.64C7.61.646 13.666.028 14.717 0c0 0 1.626 5.337-2.434 11.387-4.055 6.05-9.68 4.41-9.68 4.41S8.16 8.713 7.49 8.757c-.467.027-3.383 3.237-5.844 6.174', fillRule: 'nonzero' });

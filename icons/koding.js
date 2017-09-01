@@ -24,4 +24,4 @@ var _SvgIcon2 = _interopRequireDefault(_SvgIcon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _ref = _react2.default.createElement('path', { d: 'M.5 0h15v3.98H.5zm0 6.01h11.497v3.98H.5zm0 6.01h15V16H.5z', 'fill-rule': 'nonzero' });
+var _ref = _react2.default.createElement('path', { d: 'M.5 0h15v3.98H.5zm0 6.01h11.497v3.98H.5zm0 6.01h15V16H.5z', fillRule: 'nonzero' });

@@ -31,4 +31,4 @@ var _ref = _react2.default.createElement(
 	'Shape'
 );
 
-var _ref2 = _react2.default.createElement('path', { 'fill-rule': 'nonzero', d: 'M8.901 9.723L5.895 12.8l.48-2.708-4.09-5.045L0 5.169 5.053 0v1.969l4.81 4.43 3.008-.737-3.126 3.322L16 16z' });
+var _ref2 = _react2.default.createElement('path', { fillRule: 'nonzero', d: 'M8.901 9.723L5.895 12.8l.48-2.708-4.09-5.045L0 5.169 5.053 0v1.969l4.81 4.43 3.008-.737-3.126 3.322L16 16z' });

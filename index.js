@@ -28,9 +28,11 @@ fs.readdirSync(sourcePath).forEach(file => {
 	const $ = cheerio.load(fs.readFileSync(`${sourcePath}/${file}`, 'utf8'));
 	const svg = $('svg');
 	const name = sanitize(file.substr(0, file.lastIndexOf('.')) || file);
-	const markup = svg.html();
+	const markup = svg.html().replace('fill-rule', 'fillRule');
 	let props = '';
-	_.forEach(_.get(svg, '0.attribs', {}), (value, key) => props = props + `${humps.camelize(key)}="${value}" `);
+	_.forEach(_.get(svg, '0.attribs', {}), (value, key) => {
+		props = props + `${humps.camelize(key)}="${value}" `;
+	});
 	const component = componentTemplate({ name, markup, props });
 
 	fs.writeFileSync(`${destinationPath}/${name}.js`, component);
