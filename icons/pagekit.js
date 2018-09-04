@@ -9,8 +9,9 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 exports.default = function (props) {
 	return _react2.default.createElement(
 		_SvgIcon2.default,
-		_extends({ viewBox: '0 0 16 16', xmlns: 'http://www.w3.org/2000/svg', fillRule: 'evenodd' }, props),
-		_ref
+		_extends({ ariaLabelledby: 'simpleicons-pagekit-icon', role: 'img', viewBox: '0 0 24 24', xmlns: 'http://www.w3.org/2000/svg' }, props),
+		_ref,
+		_ref2
 	);
 };
 
@@ -24,4 +25,10 @@ var _SvgIcon2 = _interopRequireDefault(_SvgIcon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _ref = _react2.default.createElement('path', { d: 'M1.6 0v16H8v-2.352H3.951V2.351h8.098v8.947H8v2.35h6.399V0z' });
+var _ref = _react2.default.createElement(
+	'title',
+	{ id: 'simpleicons-pagekit-icon' },
+	'Pagekit icon'
+);
+
+var _ref2 = _react2.default.createElement('path', { d: 'M2.401 0v24h9.6v-3.527H5.929V3.526h12.146v13.421h-6.073v3.525H21.6V0H2.401z' });

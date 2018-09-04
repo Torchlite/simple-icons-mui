@@ -9,8 +9,9 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 exports.default = function (props) {
 	return _react2.default.createElement(
 		_SvgIcon2.default,
-		_extends({ viewBox: '0 0 16 16', xmlns: 'http://www.w3.org/2000/svg' }, props),
-		_ref
+		_extends({ ariaLabelledby: 'simpleicons-toggl-icon', role: 'img', viewBox: '0 0 24 24', xmlns: 'http://www.w3.org/2000/svg' }, props),
+		_ref,
+		_ref2
 	);
 };
 
@@ -24,4 +25,10 @@ var _SvgIcon2 = _interopRequireDefault(_SvgIcon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _ref = _react2.default.createElement('path', { d: 'M8 0C3.582 0 0 3.58 0 8s3.582 8 8 8c4.42 0 8-3.58 8-8s-3.58-8-8-8zm0 12.103c-2.158 0-3.91-1.75-3.91-3.91 0-1.802 1.22-3.318 2.877-3.772v1.14C5.914 5.97 5.17 7 5.17 8.2c0 1.563 1.267 2.83 2.83 2.83 1.563 0 2.83-1.267 2.83-2.83 0-1.2-.744-2.223-1.796-2.636V4.42c1.657.455 2.876 1.97 2.876 3.773 0 2.16-1.75 3.91-3.91 3.91zm-.56-3.416h1.12V3.114H7.44v5.573z', fillRule: 'evenodd' });
+var _ref = _react2.default.createElement(
+	'title',
+	{ id: 'simpleicons-toggl-icon' },
+	'Toggl icon'
+);
+
+var _ref2 = _react2.default.createElement('path', { d: 'M12 0C5.373 0 0 5.37 0 12s5.373 12 12 12c6.63 0 12-5.37 12-12S18.63 0 12 0zm-.84 4.67h1.68v8.36h-1.68V4.67zM12 18.155c-3.24-.002-5.865-2.63-5.864-5.868 0-2.64 1.767-4.956 4.314-5.655v1.71c-1.628.64-2.698 2.21-2.695 3.96 0 2.345 1.903 4.244 4.248 4.243 2.344-.002 4.244-1.903 4.243-4.248 0-1.745-1.07-3.312-2.694-3.95V6.63c2.55.7 4.314 3.018 4.314 5.66 0 3.24-2.626 5.864-5.865 5.864z' });

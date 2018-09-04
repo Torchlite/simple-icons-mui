@@ -9,8 +9,9 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 exports.default = function (props) {
 	return _react2.default.createElement(
 		_SvgIcon2.default,
-		_extends({ viewBox: '0 0 16 16', xmlns: 'http://www.w3.org/2000/svg', fillRule: 'evenodd', clipRule: 'evenodd', strokeLinejoin: 'round', strokeMiterlimit: '1.414' }, props),
-		_ref
+		_extends({ ariaLabelledby: 'simpleicons-koding-icon', role: 'img', viewBox: '0 0 24 24', xmlns: 'http://www.w3.org/2000/svg' }, props),
+		_ref,
+		_ref2
 	);
 };
 
@@ -24,4 +25,10 @@ var _SvgIcon2 = _interopRequireDefault(_SvgIcon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _ref = _react2.default.createElement('path', { d: 'M.5 0h15v3.98H.5zm0 6.01h11.497v3.98H.5zm0 6.01h15V16H.5z', fillRule: 'nonzero' });
+var _ref = _react2.default.createElement(
+	'title',
+	{ id: 'simpleicons-koding-icon' },
+	'Koding icon'
+);
+
+var _ref2 = _react2.default.createElement('path', { d: 'M.8 0H23v6H1V0zm0 9H18v6H.7V9zm0 9H23v6H1v-6z' });

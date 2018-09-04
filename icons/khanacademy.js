@@ -9,8 +9,9 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 exports.default = function (props) {
 	return _react2.default.createElement(
 		_SvgIcon2.default,
-		_extends({ viewBox: '0 0 16 16', xmlns: 'http://www.w3.org/2000/svg', fillRule: 'evenodd', clipRule: 'evenodd', strokeLinejoin: 'round', strokeMiterlimit: '1.414' }, props),
-		_ref
+		_extends({ ariaLabelledby: 'simpleicons-khanacademy-icon', role: 'img', viewBox: '0 0 24 24', xmlns: 'http://www.w3.org/2000/svg' }, props),
+		_ref,
+		_ref2
 	);
 };
 
@@ -24,4 +25,10 @@ var _SvgIcon2 = _interopRequireDefault(_SvgIcon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _ref = _react2.default.createElement('path', { d: 'M1.646 14.93S-.82 9.035 3.6 4.64C7.61.646 13.666.028 14.717 0c0 0 1.626 5.337-2.434 11.387-4.055 6.05-9.68 4.41-9.68 4.41S8.16 8.713 7.49 8.757c-.467.027-3.383 3.237-5.844 6.174', fillRule: 'nonzero' });
+var _ref = _react2.default.createElement(
+	'title',
+	{ id: 'simpleicons-khanacademy-icon' },
+	'Khan Academy icon'
+);
+
+var _ref2 = _react2.default.createElement('path', { d: 'M2.469 22.395S-1.229 13.553 5.401 6.96C11.415.969 20.5.041 22.076 0c0 0 2.438 8.006-3.651 17.081-6.083 9.075-14.521 6.614-14.521 6.614s8.336-10.626 7.332-10.561c-.701.041-5.076 4.856-8.768 9.263' });

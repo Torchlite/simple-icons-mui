@@ -14,15 +14,17 @@
     "url": "git@github.com:Torchlite/simple-icons-mui.git"
   },
   "dependencies": {
+    "@material-ui/core": "^3.0.2",
     "cheerio": "1.0.0-rc.2",
     "humps": "2.0.1",
     "lodash": "4.17.4",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
     "simple-icons": "github:simple-icons/simple-icons"
   },
   "peerDependencies": {
-    "material-ui": "^1.0.0-beta",
-    "react": "^15.3.0 || ^16.0.0-beta.1",
-    "react-dom": "^15.3.0 || ^16.0.0-beta.1"
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0"
   },
   "devDependencies": {
     "babel-cli": "6.26.0",

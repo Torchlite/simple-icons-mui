@@ -9,8 +9,9 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 exports.default = function (props) {
 	return _react2.default.createElement(
 		_SvgIcon2.default,
-		_extends({ viewBox: '0 0 16 16', xmlns: 'http://www.w3.org/2000/svg', fillRule: 'evenodd', clipRule: 'evenodd', strokeLinejoin: 'round', strokeMiterlimit: '1.414' }, props),
-		_ref
+		_extends({ ariaLabelledby: 'simpleicons-digitalocean-icon', role: 'img', viewBox: '0 0 24 24', xmlns: 'http://www.w3.org/2000/svg' }, props),
+		_ref,
+		_ref2
 	);
 };
 
@@ -24,4 +25,10 @@ var _SvgIcon2 = _interopRequireDefault(_SvgIcon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _ref = _react2.default.createElement('path', { d: 'M.557 12.91H.555v-1.99h1.99v1.99H4.92V9.82h3.09v3.08c3.284-.003 5.82-3.255 4.567-6.71-.465-1.28-1.486-2.3-2.767-2.765C6.352 2.17 3.098 4.712 3.098 8H0C0 2.762 5.06-1.317 10.55.397c2.398.75 4.304 2.655 5.053 5.053C17.317 10.94 13.238 16 8 16v-3.09H4.918v2.372H2.544V12.91H.556z' });
+var _ref = _react2.default.createElement(
+	'title',
+	{ id: 'simpleicons-digitalocean-icon' },
+	'DigitalOcean icon'
+);
+
+var _ref2 = _react2.default.createElement('path', { d: 'M.836 19.365H.832V16.38h2.985v2.985H7.38V14.73h4.635v4.62c4.927-.006 8.73-4.883 6.852-10.066-.698-1.92-2.23-3.45-4.15-4.146C9.527 3.255 4.647 7.068 4.647 12H0C0 4.144 7.59-1.976 15.824.595c3.6 1.125 6.456 3.982 7.58 7.58C25.974 16.41 19.858 24 12 24v-4.635H7.377v3.56h-3.56v-3.56H.833h.002z' });

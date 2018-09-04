@@ -9,8 +9,11 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 exports.default = function (props) {
 	return _react2.default.createElement(
 		_SvgIcon2.default,
-		_extends({ viewBox: '0 0 16 16', xmlns: 'http://www.w3.org/2000/svg', fillRule: 'evenodd', clipRule: 'evenodd', strokeLinejoin: 'round', strokeMiterlimit: '1.414' }, props),
-		_ref
+		_extends({ ariaLabelledby: 'simpleicons-dropbox-icon', role: 'img', viewBox: '0 0 24 24', xmlns: 'http://www.w3.org/2000/svg' }, props),
+		_ref,
+		_ref2,
+		_ref3,
+		_ref4
 	);
 };
 
@@ -25,8 +28,13 @@ var _SvgIcon2 = _interopRequireDefault(_SvgIcon);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var _ref = _react2.default.createElement(
-	'g',
-	{ fillRule: 'nonzero' },
-	_react2.default.createElement('path', { d: 'M4.707.56L0 3.63l3.254 2.606L8 3.308 4.707.558zM0 8.844l4.707 3.073L8 9.17 3.254 6.237 0 8.844zm8 .326l3.293 2.748L16 8.845l-3.254-2.607L8 9.168zm8-5.538L11.293.56 8 3.307l4.746 2.93L16 3.632z' }),
-	_react2.default.createElement('path', { d: 'M8.01 9.76L4.707 12.5l-1.414-.922v1.035L8.01 15.44l4.716-2.827v-1.035l-1.413.923L8.01 9.76z' })
+	'title',
+	{ id: 'simpleicons-dropbox-icon' },
+	'Dropbox icon'
 );
+
+var _ref2 = _react2.default.createElement('path', { d: 'M6 1.807L0 5.629l6 3.822 6.001-3.822L6 1.807z' });
+
+var _ref3 = _react2.default.createElement('path', { d: 'M18 1.807l-6 3.822 6 3.822 6-3.822-6-3.822zM0 13.274l6 3.822 6.001-3.822L6 9.452l-6 3.822z' });
+
+var _ref4 = _react2.default.createElement('path', { d: 'M18 9.452l-6 3.822 6 3.822 6-3.822-6-3.822zM6 18.371l6.001 3.822 6-3.822-6-3.822L6 18.371z' });

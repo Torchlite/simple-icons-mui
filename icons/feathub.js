@@ -9,8 +9,9 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 exports.default = function (props) {
 	return _react2.default.createElement(
 		_SvgIcon2.default,
-		_extends({ xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 16 16' }, props),
-		_ref
+		_extends({ ariaLabelledby: 'simpleicons-feathub-icon', role: 'img', viewBox: '0 0 24 24', xmlns: 'http://www.w3.org/2000/svg' }, props),
+		_ref,
+		_ref2
 	);
 };
 
@@ -24,4 +25,10 @@ var _SvgIcon2 = _interopRequireDefault(_SvgIcon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _ref = _react2.default.createElement('path', { d: 'M6 1h4v4H6V1zm0 10h4v4H6v-4zM1 6h14v4H1V6z' });
+var _ref = _react2.default.createElement(
+	'title',
+	{ id: 'simpleicons-feathub-icon' },
+	'FeatHub icon'
+);
+
+var _ref2 = _react2.default.createElement('path', { d: 'M8.73.01h6.54v6.867H8.73V.01zm0 17.113h6.54v6.867H8.73v-6.867zM.01 8.73h23.98v6.54H.01V8.73z' });

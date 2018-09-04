@@ -9,8 +9,9 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 exports.default = function (props) {
 	return _react2.default.createElement(
 		_SvgIcon2.default,
-		_extends({ viewBox: '0 0 16 16', xmlns: 'http://www.w3.org/2000/svg', fillRule: 'evenodd', clipRule: 'evenodd', strokeLinejoin: 'round', strokeMiterlimit: '1.414' }, props),
-		_ref
+		_extends({ ariaLabelledby: 'simpleicons-everplaces-icon', role: 'img', viewBox: '0 0 24 24', xmlns: 'http://www.w3.org/2000/svg' }, props),
+		_ref,
+		_ref2
 	);
 };
 
@@ -24,4 +25,10 @@ var _SvgIcon2 = _interopRequireDefault(_SvgIcon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _ref = _react2.default.createElement('path', { d: 'M7.226 15.963C3.173 15.573 0 12.153 0 8c0-4.415 3.585-8 8-8s8 3.585 8 8c0 4.154-3.173 7.573-7.226 7.963v-4.698c1.48-.35 2.58-1.68 2.58-3.265 0-1.852-1.502-3.355-3.354-3.355S4.645 6.148 4.645 8c0 1.585 1.102 2.915 2.58 3.265v4.698zm-.258-9.77c.427 0 .774.347.774.775 0 .427-.347.774-.774.774-.428 0-.774-.347-.774-.774 0-.428.346-.774.774-.774z' });
+var _ref = _react2.default.createElement(
+	'title',
+	{ id: 'simpleicons-everplaces-icon' },
+	'Everplaces icon'
+);
+
+var _ref2 = _react2.default.createElement('path', { d: 'M10.839 23.972C4.76 23.388 0 18.257 0 12.028c0-6.623 5.377-12 12-12s12 5.377 12 12c0 6.23-4.76 11.359-10.839 11.943v-7.046c2.22-.525 3.87-2.521 3.87-4.897 0-2.778-2.253-5.033-5.031-5.033S6.968 9.25 6.968 12.028c0 2.377 1.653 4.372 3.87 4.897l.001 7.047zm-.388-14.655c.642 0 1.162.521 1.162 1.162 0 .641-.521 1.162-1.162 1.162-.641 0-1.16-.521-1.16-1.162 0-.641.52-1.161 1.16-1.162z' });

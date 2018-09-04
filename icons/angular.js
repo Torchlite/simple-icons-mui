@@ -9,7 +9,7 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 exports.default = function (props) {
 	return _react2.default.createElement(
 		_SvgIcon2.default,
-		_extends({ ariaLabelledby: 'title', role: 'img', viewBox: '0 0 24 24', fillRule: 'evenodd', xmlns: 'http://www.w3.org/2000/svg' }, props),
+		_extends({ ariaLabelledby: 'simpleicons-angular-icon', role: 'img', viewBox: '0 0 24 24', xmlns: 'http://www.w3.org/2000/svg' }, props),
 		_ref,
 		_ref2,
 		_ref3
@@ -28,10 +28,10 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var _ref = _react2.default.createElement(
 	'title',
-	null,
-	'Angular'
+	{ id: 'simpleicons-angular-icon' },
+	'Angular icon'
 );
 
-var _ref2 = _react2.default.createElement('path', { d: 'M10.19 13.067h3.62L12 8.772' });
+var _ref2 = _react2.default.createElement('path', { d: 'M9.93 12.645h4.134L11.996 7.74' });
 
-var _ref3 = _react2.default.createElement('path', { d: 'M12 2L2.096 5.486l1.51 12.925L12 23.002l8.394-4.588 1.51-12.926L12 2zm6.18 16.023h-2.308l-1.244-3.066H9.372l-1.244 3.066h-2.31L12 4.32l6.18 13.703z' });
+var _ref3 = _react2.default.createElement('path', { d: 'M11.996.009L.686 3.988l1.725 14.76 9.585 5.243 9.588-5.238L23.308 3.99 11.996.01zm7.058 18.297h-2.636l-1.42-3.501H8.995l-1.42 3.501H4.937l7.06-15.648 7.057 15.648z' });
