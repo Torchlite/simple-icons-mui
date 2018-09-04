@@ -22,10 +22,6 @@
     "react-dom": "^16.4.2",
     "simple-icons": "github:simple-icons/simple-icons"
   },
-  "peerDependencies": {
-    "react": "^15.3.0",
-    "react-dom": "^15.3.0"
-  },
   "devDependencies": {
     "babel-cli": "6.26.0",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
