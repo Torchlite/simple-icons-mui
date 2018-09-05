@@ -9,8 +9,9 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 exports.default = function (props) {
 	return _react2.default.createElement(
 		_SvgIcon2.default,
-		_extends({ viewBox: '0 0 16 16', xmlns: 'http://www.w3.org/2000/svg' }, props),
-		_ref
+		_extends({ ariaLabelledby: 'simpleicons-discover-icon', role: 'img', viewBox: '0 0 24 24', xmlns: 'http://www.w3.org/2000/svg' }, props),
+		_ref,
+		_ref2
 	);
 };
 
@@ -18,10 +19,16 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _SvgIcon = require('material-ui/SvgIcon');
+var _SvgIcon = require('@material-ui/core/SvgIcon');
 
 var _SvgIcon2 = _interopRequireDefault(_SvgIcon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _ref = _react2.default.createElement('circle', { cx: '8', cy: '8', r: '8' });
+var _ref = _react2.default.createElement(
+	'title',
+	{ id: 'simpleicons-discover-icon' },
+	'Discover icon'
+);
+
+var _ref2 = _react2.default.createElement('circle', { cx: '12', cy: '12', r: '12' });

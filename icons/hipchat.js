@@ -9,8 +9,9 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 exports.default = function (props) {
 	return _react2.default.createElement(
 		_SvgIcon2.default,
-		_extends({ viewBox: '0 0 16 16', xmlns: 'http://www.w3.org/2000/svg', fillRule: 'evenodd', clipRule: 'evenodd', strokeLinejoin: 'round', strokeMiterlimit: '1.414' }, props),
-		_ref
+		_extends({ ariaLabelledby: 'simpleicons-hipchat-icon', role: 'img', viewBox: '0 0 24 24', xmlns: 'http://www.w3.org/2000/svg' }, props),
+		_ref,
+		_ref2
 	);
 };
 
@@ -18,10 +19,16 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _SvgIcon = require('material-ui/SvgIcon');
+var _SvgIcon = require('@material-ui/core/SvgIcon');
 
 var _SvgIcon2 = _interopRequireDefault(_SvgIcon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _ref = _react2.default.createElement('path', { d: 'M14.567 14.587c-.557-.318-1.074-.876-1.353-1.632-.04-.16 0-.278.12-.358C15.004 11.363 16 9.493 16 7.423c0-3.82-3.582-6.925-8-6.925-4.418.04-8 3.144-8 6.925 0 3.82 3.582 6.925 8 6.925.557 0 1.114-.04 1.672-.16.12-.04.238 0 .318.08 1.075.677 2.746 1.234 4.14 1.234.437 0 .636-.278.636-.557.08-.12-.08-.24-.2-.358zm-2.15-.637c.04.04.04.08.04.08 0 .04-.04.08-.08.08-.397 0-1.67-.677-2.307-1.195-.08-.08-.2-.12-.398-.08-.518.12-1.115.2-1.672.2-3.7 0-6.687-2.468-6.687-5.533C1.313 4.438 4.3 1.97 8 1.97s6.687 2.468 6.687 5.532c0 1.792-1.035 3.423-2.707 4.418-.12.08-.24.2-.24.36 0 .357.32 1.153.678 1.67zm-.04-4.895c0-.16-.118-.32-.317-.32-.08 0-.16.04-.2.08-.795.717-2.188 1.354-3.86 1.354-1.672 0-2.985-.68-3.86-1.36-.04-.04-.16-.08-.2-.08-.2 0-.318.16-.318.36 0 .16.08.27.2.39.477.67 1.95 1.91 4.178 1.91h.04c2.23 0 3.7-1.2 4.18-1.95.04-.12.158-.28.158-.4z' });
+var _ref = _react2.default.createElement(
+	'title',
+	{ id: 'simpleicons-hipchat-icon' },
+	'HipChat icon'
+);
+
+var _ref2 = _react2.default.createElement('path', { d: 'M19.736 19.056s.103-.073.267-.198C22.46 16.958 24 14.203 24 11.139 24 5.424 18.627.787 12.003.787 5.377.787 0 5.424 0 11.139c0 5.717 5.371 10.356 11.998 10.356.847 0 1.694-.073 2.524-.228l.262-.045c1.683 1.092 4.139 1.99 6.288 1.99.665 0 .978-.546.552-1.104-.648-.795-1.541-2.068-1.888-3.052zm-1.462-4.526c-.716 1.069-2.934 2.889-6.254 2.889h-.046c-3.328 0-5.543-1.831-6.254-2.889a1.137 1.137 0 0 1-.273-.574.49.49 0 0 1 .447-.526c.008-.003.014-.003.021-.003.117.006.23.043.328.111a9.137 9.137 0 0 0 5.754 2.056 8.805 8.805 0 0 0 5.76-2.059.461.461 0 0 1 .313-.122c.267 0 .478.213.483.475a1.321 1.321 0 0 1-.268.643h-.011z' });

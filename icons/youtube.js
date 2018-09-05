@@ -9,8 +9,9 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 exports.default = function (props) {
 	return _react2.default.createElement(
 		_SvgIcon2.default,
-		_extends({ viewBox: '0 0 16 16', xmlns: 'http://www.w3.org/2000/svg', fillRule: 'evenodd', clipRule: 'evenodd', strokeLinejoin: 'round', strokeMiterlimit: '1.414' }, props),
-		_ref
+		_extends({ ariaLabelledby: 'simpleicons-youtube-icon', role: 'img', xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24' }, props),
+		_ref,
+		_ref2
 	);
 };
 
@@ -18,10 +19,16 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _SvgIcon = require('material-ui/SvgIcon');
+var _SvgIcon = require('@material-ui/core/SvgIcon');
 
 var _SvgIcon2 = _interopRequireDefault(_SvgIcon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _ref = _react2.default.createElement('path', { d: 'M0 7.345c0-1.294.16-2.59.16-2.59s.156-1.1.636-1.587c.608-.637 1.408-.617 1.764-.684C3.84 2.36 8 2.324 8 2.324s3.362.004 5.6.166c.314.038.996.04 1.604.678.48.486.636 1.588.636 1.588S16 6.05 16 7.346v1.258c0 1.296-.16 2.59-.16 2.59s-.156 1.102-.636 1.588c-.608.638-1.29.64-1.604.678-2.238.162-5.6.166-5.6.166s-4.16-.037-5.44-.16c-.356-.067-1.156-.047-1.764-.684-.48-.487-.636-1.587-.636-1.587S0 9.9 0 8.605v-1.26zm6.348 2.73V5.58l4.323 2.255-4.32 2.24z' });
+var _ref = _react2.default.createElement(
+	'title',
+	{ id: 'simpleicons-youtube-icon' },
+	'YouTube icon'
+);
+
+var _ref2 = _react2.default.createElement('path', { 'class': 'a', d: 'M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z' });

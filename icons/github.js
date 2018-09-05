@@ -9,7 +9,7 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 exports.default = function (props) {
 	return _react2.default.createElement(
 		_SvgIcon2.default,
-		_extends({ ariaLabelledby: 'title', role: 'img', viewBox: '0 0 24 24', xmlns: 'http://www.w3.org/2000/svg', fillRule: 'evenodd', clipRule: 'evenodd', strokeLinejoin: 'round', strokeMiterlimit: '1.414' }, props),
+		_extends({ ariaLabelledby: 'simpleicons-github-icon', role: 'img', viewBox: '0 0 24 24', xmlns: 'http://www.w3.org/2000/svg' }, props),
 		_ref,
 		_ref2
 	);
@@ -19,7 +19,7 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _SvgIcon = require('material-ui/SvgIcon');
+var _SvgIcon = require('@material-ui/core/SvgIcon');
 
 var _SvgIcon2 = _interopRequireDefault(_SvgIcon);
 
@@ -27,7 +27,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var _ref = _react2.default.createElement(
 	'title',
-	null,
+	{ id: 'simpleicons-github-icon' },
 	'GitHub icon'
 );
 

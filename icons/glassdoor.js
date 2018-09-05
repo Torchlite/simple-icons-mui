@@ -9,8 +9,9 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 exports.default = function (props) {
 	return _react2.default.createElement(
 		_SvgIcon2.default,
-		_extends({ viewBox: '0 0 16 16', xmlns: 'http://www.w3.org/2000/svg', fillRule: 'evenodd', clipRule: 'evenodd', strokeLinejoin: 'round', strokeMiterlimit: '1.414' }, props),
-		_ref
+		_extends({ ariaLabelledby: 'simpleicons-glassdoor-icon', role: 'img', viewBox: '0 0 24 24', xmlns: 'http://www.w3.org/2000/svg' }, props),
+		_ref,
+		_ref2
 	);
 };
 
@@ -18,10 +19,16 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _SvgIcon = require('material-ui/SvgIcon');
+var _SvgIcon = require('@material-ui/core/SvgIcon');
 
 var _SvgIcon2 = _interopRequireDefault(_SvgIcon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _ref = _react2.default.createElement('path', { d: 'M3.15 1.54v13.204c0 .894.903 1.5 1.726 1.16l6.9-2.87c.65-.27 1.075-.907 1.075-1.614V3.122l-1.59-.092v7.563c0 .56-.35 1.06-.87 1.25l-4.37 1.583V2.94c0-.627.55-1.114 1.17-1.044l5.68.64V1.5L4.97.027C4.02-.15 3.15.577 3.15 1.54', fillRule: 'nonzero' });
+var _ref = _react2.default.createElement(
+	'title',
+	{ id: 'simpleicons-glassdoor-icon' },
+	'Glassdoor icon'
+);
+
+var _ref2 = _react2.default.createElement('path', { d: 'M17.144 20.572H3.43C3.43 22.465 4.963 24 6.856 24h10.286c1.893 0 3.428-1.535 3.428-3.428V6.492c0-.07-.054-.125-.124-.125h-3.18c-.067 0-.123.056-.123.126v14.08zm0-20.572c1.892 0 3.427 1.535 3.427 3.43H6.858v14.078c0 .068-.056.125-.125.125H3.554c-.07 0-.125-.057-.125-.125V3.428C3.43 1.536 4.963 0 6.856 0h10.287' });

@@ -9,8 +9,9 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 exports.default = function (props) {
 	return _react2.default.createElement(
 		_SvgIcon2.default,
-		_extends({ viewBox: '0 0 16 16', xmlns: 'http://www.w3.org/2000/svg', fillRule: 'evenodd', clipRule: 'evenodd', strokeLinejoin: 'round', strokeMiterlimit: '1.414' }, props),
-		_ref
+		_extends({ ariaLabelledby: 'simpleicons-invision-icon', role: 'img', viewBox: '0 0 24 24', xmlns: 'http://www.w3.org/2000/svg' }, props),
+		_ref,
+		_ref2
 	);
 };
 
@@ -18,10 +19,16 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _SvgIcon = require('material-ui/SvgIcon');
+var _SvgIcon = require('@material-ui/core/SvgIcon');
 
 var _SvgIcon2 = _interopRequireDefault(_SvgIcon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _ref = _react2.default.createElement('path', { d: 'M14.55 0H1.45C.65 0 0 .65 0 1.45v13.1C0 15.35.65 16 1.45 16h13.1c.8 0 1.45-.65 1.45-1.45V1.45C16 .65 15.35 0 14.55 0zM3.32 10.192c-.057.244-.086.508-.086.723 0 .848.46 1.41 1.438 1.41.81 0 1.468-.48 1.94-1.257l-.288 1.16h1.61l.92-3.69c.23-.935.675-1.42 1.35-1.42.532 0 .863.33.863.877 0 .158-.014.33-.072.517l-.474 1.696c-.07.245-.1.49-.1.72 0 .804.48 1.393 1.47 1.393.85 0 1.53-.54 1.9-1.85l-.63-.24c-.31.88-.59 1.04-.8 1.04-.21 0-.33-.14-.33-.43 0-.13.03-.27.07-.44l.46-1.65c.12-.39.16-.73.16-1.05 0-1.23-.75-1.88-1.65-1.88-.85 0-1.71.77-2.14 1.57l.32-1.44H6.77L6.424 7.2h1.15l-.708 2.834C6.31 11.268 5.29 11.288 5.16 11.26c-.21-.048-.345-.128-.345-.402 0-.157.03-.384.1-.657l1.08-4.27H3.262L2.917 7.2h1.136l-.733 2.994zm2.027-5.158c.532 0 .978-.417.978-.963 0-.54-.446-.96-.978-.96s-.977.42-.977.97.445.97.977.97z' });
+var _ref = _react2.default.createElement(
+	'title',
+	{ id: 'simpleicons-invision-icon' },
+	'InVision icon'
+);
+
+var _ref2 = _react2.default.createElement('path', { d: 'M21.825 0H2.175C.975 0 0 .975 0 2.175v19.65C0 23.025.975 24 2.175 24h19.65c1.2 0 2.175-.975 2.175-2.175V2.175C24 .975 23.025 0 21.825 0zM8.02 4.667c.798 0 1.468.63 1.468 1.44 0 .82-.67 1.444-1.468 1.444v.027c-.803 0-1.454-.65-1.454-1.455s.65-1.455 1.455-1.455zm9.816 13.815c-1.484 0-2.204-.885-2.204-2.09 0-.346.044-.713.15-1.08l.71-2.545c.088-.28.11-.54.11-.775 0-.82-.5-1.315-1.296-1.315-1.013 0-1.68.727-2.025 2.13l-1.38 5.535H9.487l.432-1.74c-.708 1.166-1.695 1.885-2.91 1.885-1.467 0-2.157-.842-2.157-2.113.004-.365.047-.73.13-1.085v.002l1.1-4.49H4.375l.518-1.905h4.1l-1.62 6.405c-.105.41-.15.75-.15.986 0 .41.202.53.517.604.195.04 1.725.012 2.56-1.84l1.06-4.25H9.637l.52-1.875h3.72l-.48 2.16c.647-1.2 1.937-2.355 3.212-2.355 1.35 0 2.475.975 2.475 2.82 0 .534-.08 1.065-.24 1.575l-.69 2.476c-.06.254-.104.465-.104.66 0 .434.18.645.494.645s.735-.24 1.2-1.56l.943.36c-.555 1.964-1.576 2.774-2.85 2.774z' });

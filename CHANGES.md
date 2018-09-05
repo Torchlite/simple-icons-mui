@@ -1,0 +1,2 @@
+- 2.0.0
+    - upgraded to Material-UI 3.0

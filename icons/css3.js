@@ -9,8 +9,9 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 exports.default = function (props) {
 	return _react2.default.createElement(
 		_SvgIcon2.default,
-		_extends({ xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 16 16' }, props),
-		_ref
+		_extends({ ariaLabelledby: 'simpleicons-css3-icon', role: 'img', viewBox: '0 0 24 24', xmlns: 'http://www.w3.org/2000/svg' }, props),
+		_ref,
+		_ref2
 	);
 };
 
@@ -18,10 +19,16 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _SvgIcon = require('material-ui/SvgIcon');
+var _SvgIcon = require('@material-ui/core/SvgIcon');
 
 var _SvgIcon2 = _interopRequireDefault(_SvgIcon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _ref = _react2.default.createElement('path', { fillRule: 'evenodd', d: 'M1 0h14l-1.273 14.375L7.984 16l-5.71-1.625L1 0zm11.393 2.942L3.608 2.94l.142 1.748 6.75.001-.17 1.811H5.903l.159 1.716h4.122l-.244 2.348L8 11.1l-1.97-.539-.125-1.407h-1.74l.194 2.57L8 12.859l3.582-1.02.811-8.897z' });
+var _ref = _react2.default.createElement(
+	'title',
+	{ id: 'simpleicons-css3-icon' },
+	'CSS3 icon'
+);
+
+var _ref2 = _react2.default.createElement('path', { d: 'M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z' });

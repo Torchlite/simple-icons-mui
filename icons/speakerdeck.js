@@ -9,8 +9,10 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 exports.default = function (props) {
 	return _react2.default.createElement(
 		_SvgIcon2.default,
-		_extends({ viewBox: '0 0 16 16', xmlns: 'http://www.w3.org/2000/svg', fillRule: 'evenodd', clipRule: 'evenodd', strokeLinejoin: 'round', strokeMiterlimit: '1.414' }, props),
-		_ref
+		_extends({ ariaLabelledby: 'simpleicons-speakerdeck-icon', role: 'img', viewBox: '0 0 24 24', xmlns: 'http://www.w3.org/2000/svg' }, props),
+		_ref,
+		_ref2,
+		_ref3
 	);
 };
 
@@ -18,10 +20,18 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _SvgIcon = require('material-ui/SvgIcon');
+var _SvgIcon = require('@material-ui/core/SvgIcon');
 
 var _SvgIcon2 = _interopRequireDefault(_SvgIcon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _ref = _react2.default.createElement('path', { d: 'M1.067 14C.477 14 0 13.525 0 12.94V3.06C0 2.475.478 2 1.067 2h13.866c.588 0 1.065.475 1.065 1.06H16v9.88c0 .585-.478 1.06-1.067 1.06H1.067zm9.957-3.88H4.978c-.387-.007-.7-.32-.7-.707h-.005V6.587h.006c0-.386.31-.7.69-.706h6.04c.38.01.7.32.7.71v2.83h-.01c0 .39-.31.7-.7.71zM7.48 6.934L5.7 8.008l1.766 1.057.013-2.13zm1.04 2.13L10.3 7.99 8.532 6.935l-.01 2.13z' });
+var _ref = _react2.default.createElement(
+	'title',
+	{ id: 'simpleicons-speakerdeck-icon' },
+	'Speaker Deck icon'
+);
+
+var _ref2 = _react2.default.createElement('path', { d: 'M11.2 13.598l.02-3.196-2.67 1.61M12.798 10.403l-.015 3.19 2.667-1.608M12.783 13.598v-.004l-.004.002' });
+
+var _ref3 = _react2.default.createElement('path', { d: 'M23.997 4.59c0-.878-.715-1.59-1.597-1.59H1.6C.717 3 0 3.713 0 4.59v14.82C0 20.288.715 21 1.6 21h20.8c.883 0 1.6-.713 1.6-1.59V4.59h-.003zm-6.434 9.54h-.014c0 .586-.466 1.052-1.05 1.065l.036-.016h-9.07c-.58-.01-1.05-.48-1.05-1.06H6.41V9.88h.01c0-.58.463-1.05 1.033-1.06h9.06c.57.017 1.05.48 1.05 1.067v4.244z' });

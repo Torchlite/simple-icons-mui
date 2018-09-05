@@ -9,8 +9,9 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 exports.default = function (props) {
 	return _react2.default.createElement(
 		_SvgIcon2.default,
-		_extends({ viewBox: '0 0 16 16', xmlns: 'http://www.w3.org/2000/svg' }, props),
-		_ref
+		_extends({ ariaLabelledby: 'simpleicons-monero-icon', role: 'img', viewBox: '0 0 24 24', xmlns: 'http://www.w3.org/2000/svg' }, props),
+		_ref,
+		_ref2
 	);
 };
 
@@ -18,10 +19,16 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _SvgIcon = require('material-ui/SvgIcon');
+var _SvgIcon = require('@material-ui/core/SvgIcon');
 
 var _SvgIcon2 = _interopRequireDefault(_SvgIcon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _ref = _react2.default.createElement('path', { d: 'M8 0C3.577 0 0 3.582 0 8.01c0 .89.152 1.738.412 2.54h2.385V3.82L8 9.03l5.203-5.21v6.73h2.385c.26-.802.412-1.65.412-2.54C16 3.583 12.423 0 8 0zM6.808 10.204L4.53 7.924v4.233H1.172C2.58 14.46 5.118 16 8 16s5.442-1.54 6.83-3.843h-3.36V7.924l-2.257 2.28-1.192 1.194-1.21-1.194z' });
+var _ref = _react2.default.createElement(
+	'title',
+	{ id: 'simpleicons-monero-icon' },
+	'Monero icon'
+);
+
+var _ref2 = _react2.default.createElement('path', { d: 'M12 0C5.365 0 0 5.373 0 12.015c0 1.335.228 2.607.618 3.81h3.577V5.729L12 13.545l7.805-7.815v10.095h3.577c.389-1.203.618-2.475.618-3.81C24 5.375 18.635 0 12 0zm-1.788 15.307l-3.417-3.421v6.351H1.758C3.87 21.689 7.678 24 12 24s8.162-2.311 10.245-5.764h-5.04v-6.351l-3.386 3.421-1.788 1.79-1.814-1.79h-.005z' });

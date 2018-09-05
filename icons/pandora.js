@@ -9,8 +9,9 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 exports.default = function (props) {
 	return _react2.default.createElement(
 		_SvgIcon2.default,
-		_extends({ xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 16 16' }, props),
-		_ref
+		_extends({ ariaLabelledby: 'simpleicons-pandora-icon', role: 'img', viewBox: '0 0 24 24', xmlns: 'http://www.w3.org/2000/svg' }, props),
+		_ref,
+		_ref2
 	);
 };
 
@@ -18,10 +19,16 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _SvgIcon = require('material-ui/SvgIcon');
+var _SvgIcon = require('@material-ui/core/SvgIcon');
 
 var _SvgIcon2 = _interopRequireDefault(_SvgIcon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _ref = _react2.default.createElement('path', { d: 'M12.7 0H3.3C1.5 0 0 1.48 0 3.3v9.4C0 14.5 1.48 16 3.3 16h9.4c1.82 0 3.3-1.48 3.3-3.3V3.3C16 1.5 14.52 0 12.7 0zM8.25 10.54h-.82v1.86c0 .24-.2.43-.43.43H4.43V3.17H8.8c2.12 0 3.76 1.1 3.76 3.6 0 2.37-1.82 3.77-4.3 3.77z' });
+var _ref = _react2.default.createElement(
+	'title',
+	{ id: 'simpleicons-pandora-icon' },
+	'Pandora icon'
+);
+
+var _ref2 = _react2.default.createElement('path', { d: 'M19.051 0H4.949C2.25 0 0 2.221 0 4.95v14.101C0 21.75 2.22 24 4.949 24h14.102C21.779 24 24 21.779 24 19.051V4.95C24 2.25 21.779 0 19.051 0zm-6.676 15.811h-1.229V18.6c0 .361-.301.646-.646.646H6.646V4.756H13.2c3.181 0 5.642 1.65 5.642 5.4 0 3.555-2.73 5.654-6.451 5.654h-.016z' });

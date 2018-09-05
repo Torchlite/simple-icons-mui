@@ -9,7 +9,7 @@ const destinationPath = `${__dirname}/icons`;
 
 const componentTemplate = _.template(_.trim(`
 import React from 'react';
-import SvgIcon from 'material-ui/SvgIcon';
+import SvgIcon from '@material-ui/core/SvgIcon';
 
 export default function (props) {
 	return (
