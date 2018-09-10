@@ -9,7 +9,7 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 exports.default = function (props) {
 	return _react2.default.createElement(
 		_SvgIcon2.default,
-		_extends({ ariaLabelledby: 'simpleicons-serverfault-icon', role: 'img', viewBox: '0 0 24 24', xmlns: 'http://www.w3.org/2000/svg' }, props),
+		_extends({ 'aria-labelledby': 'simpleicons-serverfault-icon', role: 'img', viewBox: '0 0 24 24', xmlns: 'http://www.w3.org/2000/svg' }, props),
 		_ref,
 		_ref2
 	);

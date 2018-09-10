@@ -31,7 +31,7 @@ fs.readdirSync(sourcePath).forEach(file => {
 	const markup = svg.html().replace('fill-rule', 'fillRule');
 	let props = '';
 	_.forEach(_.get(svg, '0.attribs', {}), (value, key) => {
-		props = props + `${humps.camelize(key)}="${value}" `;
+        props += `${key.includes('aria') ? key : humps.camelize(key)}="${value}" `;
 	});
 	const component = componentTemplate({ name, markup, props });
 
